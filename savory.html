@@ -10,10 +10,13 @@
 
   gtag('config', 'G-LNTBFEJ9Q9');
 </script>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <title>Savory Food</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Savory Page</title>
+<link rel="stylesheet" href="html5reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
 
     <body>
@@ -23,10 +26,10 @@
     <main id="main">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="savory.html" class="active">Savory</a></li>
-                <li><a href="deserts.html">Dessert</a></li>
-                <li><a href="story.html">Story</a></li>
+                <li><a href="index.html" aria-label="Home"><i class="fa fa-home" aria-hidden="true" aria-label="home">Home</i></a></li>
+                <li><a href="savory.html" aria-label="Savory" class="active"><i class="fa fa-cutlery" aria-hidden="true" aria-label="savory">Savory</i></a></li>
+                <li><a href="deserts.html" aria-label="Desserts"><i class="fa fa-birthday-cake" aria-hidden="true" aria-label="desserts">Dessert</i></a></li>
+                <li><a href="story.html" aria-label="Story"><i class="fa fa-address-book-o" aria-hidden="true" aria-label="story">Story</i></a></li>
             </ul>
         </nav>
         <h1>My Savory Collection</h1>
@@ -37,23 +40,68 @@
         </p>
 
         <div class="wrapper">
-        <img src="./images/burgerbuns.jpeg" class="w3-hover-grayscale" alt="burger buns">
-        <img src="./images/crossoints.jpeg" class="w3-hover-grayscale" alt="crossoints">
-        <img src="./images/flowerbread.jpeg" class="w3-hover-grayscale" alt="flower bread">
-        <img src="./images/foccacia.jpeg" class="w3-hover-grayscale" alt="foccacia">
-        <img src="./images/hasselbackpotatoes.jpeg" class="w3-hover-grayscale" alt="hasselback potatoes">
-        <img src="./images/pizzacake.jpeg" class="w3-hover-grayscale" alt="pizza cake">
-        <img src="./images/potatopie.jpeg" class="w3-hover-grayscale" alt="potato pie">
-        <img src="./images/spagetti.jpeg" class="w3-hover-grayscale" alt="spagetti">
-        <img src="./images/YogurtKabob.jpeg" class="w3-hover-grayscale" alt="yogurt kabob">
-        <img src="./images/Lasagna.jpeg" class="w3-hover-grayscale" alt="lasagna">
-    </div>
+            <div class="card-container">
+                <img src="./images/burgerbuns.jpeg" class="w3-hover-grayscale" alt="burger buns">
+            <div class="text-block">
+                <p>Burger Buns</p>
+            </div>
+            </div>
+            <div class="card-container">
+                <img src="./images/crossoints.jpeg" class="w3-hover-grayscale" alt="crossoints">
+                <div class="text-block">
+                    <p>Crossoints</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <img src="./images/flowerbread.jpeg" class="w3-hover-grayscale" alt="flower bread">
+                <div class="text-block">
+                    <p>Flower Bread</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <img src="./images/foccacia.jpeg" class="w3-hover-grayscale" alt="foccacia">
+                <div class="text-block">
+                    <p>Foccacia</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <img src="./images/hasselbackpotatoes.jpeg" class="w3-hover-grayscale" alt="hasselback potatoes">
+                <div class="text-block">
+                    <p>Hasselback Potatoes</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <img src="./images/pizzacake.jpeg" class="w3-hover-grayscale" alt="pizza cake">
+                <div class="text-block">
+                    <p>Pizza Cake</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <img src="./images/spagetti.jpeg" class="w3-hover-grayscale" alt="spagetti">
+                <div class="text-block">
+                    <p>Spagetti</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <img src="./images/YogurtKabob.jpeg" class="w3-hover-grayscale" alt="yogurt kabob">
+                <div class="text-block">
+                    <p>Yogurt Kabob</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <img src="./images/Lasagna.jpeg" class="w3-hover-grayscale" alt="lasagna">
+                <div class="text-block">
+                    <p>Lasagna</p>
+                </div>
+            </div>
+        </div>
     </main>
+    </body>
 
     <footer>	
         <p>University of Michigan School of Information <br/>	
           &copy; Anshika Saxena - SI 539</p>	
       </footer>	
-</body>
 </html>
+
 
