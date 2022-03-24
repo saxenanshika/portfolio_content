@@ -10,9 +10,13 @@
 
   gtag('config', 'G-LNTBFEJ9Q9');
 </script>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <title>Deserts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dessert Page</title>
+<link rel="stylesheet" href="html5reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
     <body>
         <header>
@@ -21,10 +25,10 @@
     <main id="main">
         <nav>
             <ul>
-                <li><a href="index.html">Home</li></a>
-                <li><a href="savory.html">Savory</li></a>
-                <li><a href="deserts.html" class="active">Dessert</li></a>
-                <li><a href="story.html">Story</li></a>
+                <li><a href="index.html" aria-label="Home"><i class="fa fa-home" aria-hidden="true" aria-label="home">Home</i></a></li>
+                <li><a href="savory.html" aria-label="Savory"><i class="fa fa-cutlery" aria-hidden="true" aria-label="savory">Savory</i></a></li>
+                <li><a href="deserts.html" aria-label="Deserts" class="active"><i class="fa fa-birthday-cake" aria-hidden="true" aria-label="desserts">Dessert</i></a></li>
+                <li><a href="story.html" aria-label="Story"><i class="fa fa-address-book-o" aria-hidden="true" aria-label="story">Story</i></a></li>
             </ul>
         </nav>
         <h1>My Desserts Collection</h1>
@@ -35,30 +39,88 @@
 </p>
 
         <div class="wrapper">
+        <div class="card-container">
         <img src="./images/halloweencakes.jpeg" class="w3-hover-grayscale" alt="halloween cakes">
+        <div class="text-block">
+            <p>Halloween Cupcakes</p>
+        </div>
+        </div>
+        <div class="card-container">
+            <img src="./images/orangemousse.jpeg" class="w3-hover-grayscale" alt="orange mousse">
             <div class="text-block">
-                <p>Halloween Cakes</p>
+                <p>Organe Mousse</p>
             </div>
-        <img src="./images/orangemousse.jpeg" class="w3-hover-grayscale" alt="orange mousse">
-        <img src="./images/watermelonbread.jpeg" class="w3-hover-grayscale" alt="watermelon bread">
-        <img src="./images/whiskycake.jpeg" class="w3-hover-grayscale" alt="whisky cake">
-        <img src="./images/whitechocolatecheesecake.jpeg" class="w3-hover-grayscale" alt="white chocolate cheesecake">
-        <img src="./images/brownie.jpeg" class="w3-hover-grayscale" alt="brownie">
-        <img src="./images/cakeone.jpeg" class="w3-hover-grayscale" alt="cake">
-        <img src="./images/cheesecake.jpeg" class="w3-hover-grayscale" alt="cheesecake">
-        <img src="./images/chickpeaflourmousse.jpeg" class="w3-hover-grayscale" alt="chickpeaflour mousse">
-        <img src="./images/chocolatecake.jpeg" class="w3-hover-grayscale" alt="chocolate cake">
-        <img src="./images/deathbychocolate.jpeg" class="w3-hover-grayscale" alt="death by chocolate">
-        <img src="./images/dogcake.jpeg" class="w3-hover-grayscale" alt="dog cake">
+        </div>
+        <div class="card-container">
+            <img src="./images/watermelonbread.jpeg" class="w3-hover-grayscale" alt="watermelon bread">
+            <div class="text-block">
+                <p>Watermelon Bread</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="./images/whiskycake.jpeg" class="w3-hover-grayscale" alt="whisky cake">
+            <div class="text-block">
+                <p>Whisky Cake</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="./images/whitechocolatecheesecake.jpeg" class="w3-hover-grayscale" alt="white chocolate cheesecake">
+            <div class="text-block">
+                <p>Cheesecake</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="./images/brownie.jpeg" class="w3-hover-grayscale" alt="brownie">
+            <div class="text-block">
+                <p>Brownie</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="./images/cakeone.jpeg" class="w3-hover-grayscale" alt="cake">
+            <div class="text-block">
+                <p>Cake</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="./images/cheesecake.jpeg" class="w3-hover-grayscale" alt="cheesecake">
+            <div class="text-block">
+                <p>Cheesecake</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="./images/chickpeaflourmousse.jpeg" class="w3-hover-grayscale" alt="chickpeaflour mousse">
+            <div class="text-block">
+                <p>Mousse</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="./images/chocolatecake.jpeg" class="w3-hover-grayscale" alt="chocolate cake">
+            <div class="text-block">
+                <p>Choco Cake</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="./images/deathbychocolate.jpeg" class="w3-hover-grayscale" alt="death by chocolate">
+            <div class="text-block">
+                <p>Death by Chocolate</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="./images/dogcake.jpeg" class="w3-hover-grayscale" alt="dog cake">
+            <div class="text-block">
+                <p>Doggo Cake</p>
+            </div>
+        </div>
     </div>
 
-  
     </main>
+    </body>
     <footer>	
         <p>University of Michigan School of Information <br/>	
           &copy; Anshika Saxena - SI 539</p>	
       </footer>	
 
-</body>
+
 </html>
+
 
