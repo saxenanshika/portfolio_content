@@ -10,8 +10,13 @@
 
   gtag('config', 'G-LNTBFEJ9Q9');
 </script>
-        <link rel="stylesheet" href="css/style.css">
-        <title>Savory Food</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Story</title>
+<link rel="stylesheet" href="html5reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
     <body>
         <header>
@@ -20,14 +25,14 @@
     <main id="main">
         <nav>
             <ul>
-                <li><a href="index.html">Home</li></a>
-                <li><a href="savory.html">Savory</li></a>
-                <li><a href="deserts.html">Dessert</li></a>
-                <li><a href="story.html" class="active">Story</li></a>
+                <li><a href="index.html" aria-label="Home"><i class="fa fa-home" aria-hidden="true" aria-label="home">Home</i></a></li>
+                <li><a href="savory.html" aria-label="Savory"><i class="fa fa-cutlery" aria-hidden="true" aria-label="savory">Savory</i></a></li>
+                <li><a href="deserts.html" aria-label="Desserts"><i class="fa fa-birthday-cake" aria-hidden="true" aria-label="desserts">Dessert</i></a></li>
+                <li><a href="story.html" aria-label="Story" class="active"><i class="fa fa-address-book-o" aria-hidden="true" aria-label="story">Story</i></a></li>
             </ul>
         </nav>
        <h1>Cooking Story</h1>
-        <img src="./images/story.jpeg" alt = "Cooking story" width="600"/>
+        <img src="./images/story.jpeg" alt = "Cooking story" width=100%/>
         <p>I want to tell you about one of my favourite hobbies, which is cooking.  I love to cook homemade meals, because they are healthy, less fattening and nutritious to eat.
 
             My favourite things that I like to cook are; chicken bryani noodles and vegetables, pasta with tomato sauce or tuna casserole.
@@ -41,7 +46,21 @@
             Please think of healthy cooking as a hobby and a healthy lifestyle to you and your family.
 
         </p>
-    </main>
+        <div class="row">
+            <div class="grid-row-1">
+            <img src="./images/Myimage.jpeg" alt="My Image" width=50% id="myImage">
+            <h2>Anshika Saxena</h2>
+            </img>
+            </div>
+            <div class="grid-row-1">
+            <h2>Hey there,</h2>
+            <p>Nice to meet you!</p>
+            </div>
+            <div class="grid-row-1">
+            <h2>Want to know more?</h2>
+            <p>Reach out to me through the form</p>
+            </div>
+            </div>
     <form
         action="https://formspree.io/f/mnqwzyrd"
         method="POST"
@@ -56,7 +75,7 @@
           <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required>
       
           <label for="phone_id">Your Phone Number</label>
-          <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+          <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="phone_id" required>
           <div><span>Format: 123-456-7890</span></div>
       
       
@@ -69,9 +88,11 @@
           <input type="submit" value = "Contact Me">
         </fieldset>
        </form>
+        </main>
+    </body>
     <footer>	
         <p>University of Michigan School of Information <br/>	
           &copy; Anshika Saxena MSI'23 - Web Design 2019-2020</p>	
       </footer>	
-</body>
 </html>
+
